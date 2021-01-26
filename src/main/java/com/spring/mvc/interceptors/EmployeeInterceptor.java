@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 public class EmployeeInterceptor implements HandlerInterceptor {
 
-    private final Logger LOG = LoggerFactory.getLogger(GenericInterceptor.class);
+    private final Logger LOG = LoggerFactory.getLogger(EmployeeInterceptor.class);
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {

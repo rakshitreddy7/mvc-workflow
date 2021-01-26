@@ -9,7 +9,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @EnableWebMvc
 @ComponentScan(value = "com.spring.mvc")
-public class AppConfig implements WebMvcConfigurer {
+public class DispatcherServlet implements WebMvcConfigurer {
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
